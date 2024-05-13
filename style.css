@@ -1,26 +1,50 @@
-button {
+.fotitos {
+    text-align: left;
+    margin-left: 30px;
+    columns: 1;
+    list-style: none;
+    justify-content: center;
+ }
+.button {
     background-color: #1A73E8;
     color: white;
     font-size: 15px;
-}
-.boton {
-text-align: right;
+    margin: 30;
+    padding: 30;
+    text-align: center;
+    justify-content: center;
+    margin-left: -70px;
 }
 .botones {
-    text-align: right;
-}
-.letras {
-    text-align: right;
-    margin-left: 50px;
-}
-.fotitos {
-    text-align: left;
-    display: grid;
-    grid-template-columns: 1;
-    float: left;
-    margin-left: 30px;
-}
-.fotogrande {
     text-align: center;
+    background-color: rgb(211, 205, 205);
+    margin-left: 80%;
+    justify-content: center;
+    margin-left: -70px;
+ }
+.letras {
+    text-align: center;
+    justify-content: center;
+    margin-left: -100px;
 }
-
+.fotogrand {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(211, 205, 205); margin-left: 30%; margin-right: 30%;
+}
+.fotitosss {
+    list-style: none;
+    justify-content: center;
+}
+.fondoboton {
+    background-color: rgb(211, 205, 205);
+    text-align: center;
+justify-content: center;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.home {
+    display: flex;
+}
